@@ -258,7 +258,7 @@ public class JDlgUsuarios extends javax.swing.JDialog {
 
     private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
         // TODO add your handling code here:
-
+        Util.pergunta("Deseja Excluir?");
     }//GEN-LAST:event_jBtnExcluirActionPerformed
 
 
@@ -270,8 +270,7 @@ public class JDlgUsuarios extends javax.swing.JDialog {
 
     private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
         // TODO add your handling code here: 
-
-
+        Util.mensagem("Não Implementado!");
     }//GEN-LAST:event_jBtnPesquisarActionPerformed
 
     private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
@@ -283,7 +282,7 @@ public class JDlgUsuarios extends javax.swing.JDialog {
 
     private void jTxtCodigoFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTxtCodigoFocusLost
         // TODO add your handling code here:
-
+        int cod = Util.strToInt(jTxtCodigo.getText());
     }//GEN-LAST:event_jTxtCodigoFocusLost
 
     private void jCboNivelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCboNivelActionPerformed
